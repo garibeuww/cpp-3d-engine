@@ -1,12 +1,13 @@
 # C++ 3D Engine
 
-Simple 3D engine built from scratch using OpenGL.
+A simple 3D engine built from scratch using OpenGL.
 
 ## Features
-- OBJ loading
+- OBJ mesh loading
 - Texture system
-- Basic lighting
+- Basic lighting (Phong)
 - Camera system
+- Material abstraction
 
 ## Tech
 - C++
@@ -15,10 +16,8 @@ Simple 3D engine built from scratch using OpenGL.
 - GLAD
 - CMake
 
-- ## Build
+## Build
 
 ```bash
-mkdir build
-cd build
-cmake ..
-make
+cmake -S . -B build
+cmake --build build
