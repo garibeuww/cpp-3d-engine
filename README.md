@@ -14,3 +14,11 @@ Simple 3D engine built from scratch using OpenGL.
 - GLFW
 - GLAD
 - CMake
+
+- ## Build
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
