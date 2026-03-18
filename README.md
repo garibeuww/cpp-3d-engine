@@ -1,23 +1,16 @@
-# Build
-/build/
-/bin/
-/out/
+# C++ 3D Engine
 
-# CMake
-CMakeFiles/
-CMakeCache.txt
-cmake-build-*/
+Simple 3D engine built from scratch using OpenGL.
 
-# Binaries
-*.exe
-*.dll
-*.so
-*.a
+## Features
+- OBJ loading
+- Texture system
+- Basic lighting
+- Camera system
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Editor
-.vscode/
-.idea/
+## Tech
+- C++
+- OpenGL
+- GLFW
+- GLAD
+- CMake
